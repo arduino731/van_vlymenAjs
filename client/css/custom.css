@@ -11,8 +11,7 @@ html {
     box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
 }
 .topnav ul.navbar-nav li a {
-background: rgba(28, 28, 28, 0.1);
-color: #000;
+color: #fff;
 }
 .topnav ul.navbar-nav li a:hover,
 .topnav ul.navbar-nav li a:focus
@@ -41,12 +40,12 @@ color: #000;
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url('http://www.truedevel.com/images/slide_1.png') no-repeat center center fixed;
+    background: url('../img/desk.png') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }
 .bg-overlay {
-  background:rgba(255,0,0, 0.1);
+  background:rgba(86,86,86, 0.5);
   height: 855px;
 }
 .lead {
@@ -145,7 +144,7 @@ hr.intro-divider {
 /*section 2*/
 .content-section-a {
     padding: 50px 0;
-    background: url('http://cdn7.staztic.com/app/a/3145/3145302/best-wallpaper-background-hd-1-8-s-307x512.jpg') no-repeat center center fixed;
+    background: url('../img/wolf.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }
@@ -153,7 +152,7 @@ hr.intro-divider {
 h2.section-heading {
     margin-top: 10px;
     font-size: 3em;
-    color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
 
   /*text*/
@@ -173,7 +172,7 @@ h2.section-heading {
 /* Portfolio section*/
 section {
   color: black;
-  background: url('http://www.loft14design.com/images/bg_portfolio_greybrick.jpg') no-repeat center center fixed;
+  background: url('../img/brick.jpg') no-repeat center center fixed;
   background-size: cover;
 }
  #below-section {
